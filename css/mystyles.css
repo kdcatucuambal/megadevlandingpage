@@ -1,0 +1,43 @@
+.border-section {
+  border-bottom: 5px solid #212529;
+}
+
+.image-course {
+  border: 2px solid #212529;
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(31, 28, 28, 0.8);
+}
+.hero-help {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+.border-logo {
+  border-bottom: 3px solid white;
+  padding-bottom: 0px;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.image-galery {
+  -webkit-box-shadow: 2px 2px 8px 0px #000000;
+  box-shadow: 2px 2px 8px 0px #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
