@@ -13,6 +13,9 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="./owl/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./owl/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/mystyles.css">
+    <link rel="stylesheet" href="./css/simulacro.css">
     <script src="https://use.fontawesome.com/6b09691d36.js"></script>
     <style>
       .hero {
@@ -25,27 +28,27 @@
         background-size: cover;
       }
     </style>
-    <link rel="stylesheet" href="./css/mystyles.css" />
+    <link rel="stylesheet" href="./css/mystyles.css">
   </head>
   <body>
     <!-- Responsive navbar-->
 
     <div class="container-fluid bg-light px-4">
-      <div class="row py-2 px-4 d-flex align-items-center">
-        <div class="col-lg-8 col-sm-12 d-flex justify-content-center justify-content-lg-start">
-          <div class="col-12 col-sm-3 info-head">
-            <span class="pt"><i class="fa fa-phone" aria-hidden="true"></i> +593 99 205 8020</span>
+        <div class="row py-2 px-4 d-flex align-items-center">
+          <div class="col-lg-8 col-sm-12 d-flex justify-content-center justify-content-lg-start">
+            <div class="col-12 col-sm-3 info-head">
+              <span class="pt"><i class="fa fa-phone" aria-hidden="true"></i> +593 99 205 8020</span>
+            </div>
+            <div class="col-12 col-sm-4 info-head">
+              <span><i class="fa fa-envelope-square" aria-hidden="true"></i> info@megapro.com.ec</span>
+            </div>
           </div>
-          <div class="col-12 col-sm-4 info-head">
-            <span><i class="fa fa-envelope-square" aria-hidden="true"></i> info@megapro.com.ec</span>
+          <div class="col-lg-4 col-sm-12 d-flex justify-content-center justify-content-lg-end">
+            <a href="https://megapro.com.ec/cursos/login/index.php" class="btn btn-primary mx-1"><i class="fa fa-sign-in" aria-hidden="true"></i> Ingresar</a>
+            <a href="./admision.html" class="btn btn-secondary mx-1"><i class="fa fa-plus" aria-hidden="true"></i> Registro</a>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-12 d-flex justify-content-center justify-content-lg-end">
-          <a href="https://megapro.com.ec/cursos/login/index.php" class="btn btn-primary mx-1"><i class="fa fa-sign-in" aria-hidden="true"></i> Ingresar</a>
-          <a href="./admision.html" class="btn btn-secondary mx-1"><i class="fa fa-plus" aria-hidden="true"></i> Registro</a>
         </div>
       </div>
-    </div>
 
     <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid px-5">
@@ -163,96 +166,46 @@
       </div>
     </nav>
 
-    <div class="container mb-5 py-5">
-      <h2 class="text-center mb-3 border-section">NUESTRA GALERIA</h2>
-      <div class="row">
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-1.png"
-            alt="gal1"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-2.png"
-            alt="gal2"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-3.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-4.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-5.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-6.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-7.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-8.png"
-            alt="gal3"
-          />
-        </div>
+    <!-- Page Content-->
+   
+    <div class="container px-4 px-lg-5 pt-2 top-page">
+      <h3 class="text-center my-2 mb-4 mt-4">¡Pon a prueba tus conocimientos con nuestras preguntas!</h3>
+      <div class="row gx-4 gx-lg-5 align-items-center my-5 _contq">
+        <div class="site-section">
+            <div class="container-fluid">
+                <div class="row simu">
+                    <div class="col-lg-3 col-12 button">
+                        <div class="col-12">
+                            <h3 class="text-center py-3">MEGAPRO</h3>
+                            <h6 id="timer" class="text-center py-3"></h6>
+                        </div>
+                      
+                        <div id="box_buttons" class="col-12">
+                        </div>
+                        <div class="col-12 mt-3">
+                            <img id="img" class="img-fluid" src="./images/megaapp.jpeg" alt="Megapro">
+                        </div>
+                    </div>
 
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-9.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-10.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-11.png"
-            alt="gal3"
-          />
-        </div>
-        <div class="col-6 col-sm-4 col-lg-3">
-          <img
-            class="img-fluid mx-auto my-2 image-galery"
-            src="./images/small-12.png"
-            alt="gal3"
-          />
+
+                    <div class="col-lg-9 col-12" id="box_questions">
+                        <h5 id="title" class="text-center py-4">Razonamiento Verbal - Pregunta 1 de 20</h5>
+                        <div class="col-12" id="box_question">
+                                      
+                        </div>
+                        <div class="col-12">
+                            <button id="btn_nav" class="btn btn-primary">Terminar y avanzar ></button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
       </div>
+
     </div>
+
 
     <div class="hero">
       <div class="container">
@@ -301,6 +254,7 @@
         </div>
       </div>
     </div>
+
     <footer class="bg-dark text-center text-white">
       <div class="container p-4">
         <h4>CONTACTOS</h4>
@@ -398,7 +352,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/scripts.js"></script>
-    <script src="./owl/owl.carousel.min.js"></script>
+    <script src="js/abstracto.js"></script>
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -424,6 +378,33 @@
             },
           },
         });
+      });
+    </script>
+    <script>
+      const $dropdown = $(".dropdown");
+      const $dropdownToggle = $(".dropdown-toggle");
+      const $dropdownMenu = $(".dropdown-menu");
+      const showClass = "show";
+
+      $(window).on("load resize", function () {
+        if (this.matchMedia("(min-width: 768px)").matches) {
+          $dropdown.hover(
+            function () {
+              const $this = $(this);
+              $this.addClass(showClass);
+              $this.find($dropdownToggle).attr("aria-expanded", "true");
+              $this.find($dropdownMenu).addClass(showClass);
+            },
+            function () {
+              const $this = $(this);
+              $this.removeClass(showClass);
+              $this.find($dropdownToggle).attr("aria-expanded", "false");
+              $this.find($dropdownMenu).removeClass(showClass);
+            }
+          );
+        } else {
+          $dropdown.off("mouseenter mouseleave");
+        }
       });
     </script>
   </body>

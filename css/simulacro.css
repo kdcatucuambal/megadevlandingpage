@@ -1,0 +1,76 @@
+.custom{
+    width: 32px !important;
+    height: 32px !important;
+    margin: 2px !important;
+    border-radius: 0.25rem !important;
+    background-color: #DAD2CF;
+    -webkit-box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+}
+
+.opt{
+    cursor: pointer !important;
+}
+
+
+.checked{
+    width: 32px !important;
+    height: 32px !important;
+    margin: 2px !important;
+    border-radius: 0.25rem !important;
+    background-color: #0b5ed7 !important;
+    color: white !important;
+    -webkit-box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+}
+
+.yes-response{
+    width: 32px !important;
+    height: 32px !important;
+    margin: 2px !important;
+    border-radius: 0.25rem !important;
+    background-color: gray !important;
+    color: white !important;
+    -webkit-box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 3px 7px -4px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+}
+
+.border_bottom {
+    border-bottom: 1px solid gray;
+}
+
+#box_questions {
+    height: 100%;
+    overflow-y: auto;
+    padding: 2px;
+    line-height: 1.5;
+    /* border: 2px ridge gray; */
+    border-left: none;
+    padding-left: 10px;
+}
+
+
+
+.custom-radio{
+    padding: 10px 10px 10px 30px;
+}
+
+.button {
+    /* height: 100vh; */
+    overflow-y: auto;
+    padding: 2px;
+    /* border: 2px ridge gray; */
+}
+
+.simu{
+    color: black;
+    line-height: 1.7;
+    /* font-weight: 300; */
+    /* font-size: 1.1rem; */
+}
